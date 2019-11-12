@@ -1,2 +1,2 @@
-# herogamers.xyz
+# HeroGamers
 The HeroGamers website.

@@ -1,0 +1,24 @@
+# Block info
+User-agent: *
+Disallow: /indexfiles/
+Disallow: /cgi-bin/
+Disallow: /gtag.js
+Disallow: /testing/doggycraft/css/
+Disallow: /testing/doggycraft/includes/
+Disallow: /testing/doggycraft/js/
+Disallow: /testing/doggycraft/fonts/
+Disallow: /testing/doggycraft/favicons/
+Disallow: /testing/doggycraft/img/
+Disallow: /testing/doggycraft/cgi-bin/
+Disallow: /testing/freesambro/css/
+Disallow: /testing/freesambro/audio/
+Disallow: /testing/freesambro/favicons/
+Disallow: /testing/freesambro/heroes/
+Disallow: /testing/freesambro/img/
+Disallow: /testing/freesambro/js/
+Disallow: /testing/freesambro/README.md
+Disallow: /testing/freesambro/favicon.php
+Disallow: /testing/projekter/
+Disallow: /testing/projekter/skole/
+
+Sitemap: https://herogamers.xyz/sitemap.xml
