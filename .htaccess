@@ -1,7 +1,7 @@
 Options -Indexes
 RewriteEngine on
-ErrorDocument 403 /403.php
-ErrorDocument 404 /404.php
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
 RewriteCond %{HTTPS} !=on
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/.+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
