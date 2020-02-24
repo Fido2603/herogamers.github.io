@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/herogamers
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://herogamers.xyz
+  * I am herogamers (https://keybase.io/herogamers) on keybase.
+  * I have a public key with fingerprint 8633 754C CB0F 66D5 DF16  8C71 4093 A2A3 98A6 4B63
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a749d21a98b34c9336bc4c9233ed25e3f3843d0249d360f5528b3004468297b90a",
+      "fingerprint": "8633754ccb0f66d5df168c714093a2a398a64b63",
+      "host": "keybase.io",
+      "key_id": "4093a2a398a64b63",
+      "kid": "0101610d9223f9183f7f6369be6554ac157d61f271a5c93f02e899033fcd47bc9dd70a",
+      "uid": "c601be6ed1d8263a14f16673c5285c19",
+      "username": "herogamers"
+    },
+    "merkle_root": {
+      "ctime": 1582573688,
+      "hash_meta": "e035135f7a95bfb14a773d61a185ee7e3c9b3392f2bc5d8ab88191201dd992a7",
+      "seqno": 14724469
+    },
+    "revoke": {
+      "sig_ids": [
+        "eb9fd9ea5a2adecc61eec53da40f1923aafdc25e9b1ed6793554f706ac2eba0f0f"
+      ]
+    },
+    "service": {
+      "hostname": "herogamers.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1582573682,
+  "expire_in": 157680000,
+  "prev": "4ae22f753400d59e26e60d9083468b1e5abb243fd605acae5e88666d39aca0b7",
+  "seqno": 41,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMP7AnicbVNrbBVFFG6VAjbiJdRUnoJLDCCXZmZnd3anKr2lhCDIq0EK5XGd3Zlt
+t73cvdy9XLgtFYESCEgTKFCjPCKISAlEXgHBQMpbGpCqjVFLpU2sAi0i1NBAEWcb
+SYy6f87O7ved853vnDnb6+mk1ORA5Y6d738y0UyuPV26MGne9OHRUslwWELKLJWK
+eVfgIcbdWLDYZlKmBKAMqKYQJkNKdAMpJkEIG6aIMkKcySpHFtIVxIAsUAgDS1Vl
+AQRAUbAuE80ggEp+ybLDBTwaidrhmEirY4Q0VTFNA1gYM5VZEOumBhVAEJUpIjrF
+ioGRIBY6rscQ4gzq8gzbEd/EIdgl73/wT3QDiCFgRJaRRaCOLM3CCBODY1VVqAlV
+jWFoyRqkqmjJAjLXCQEIWSZTNMMkjGlduhd2pTMxgILKGWS6jBGFihCMNWSKXlUT
+Eg/o8miYzucCXcijToF4jbpSmV8SsTjEg1HHiXn2mjHbA0FVl1UNYV0XLVK3MDif
+x6jgcoBUiFRLo0Q1LAMqVNOQkEqhrnKucWQSAyEiW7Jhqkynhq5DIoYEGSNEpppQ
+4vIFYUdUUDRZzIAICVEed4q5V921C4RzrpQ5W+IGsRjhVBUGMm6aGHJuqohRBVhQ
+TJdSi5livsSAnGGNIGGcpQFMTZkbFFjAkuaWedWicdvsSu6N6j8WZCxOlAhRkagT
+c0wn5P2LxSJupmdNLBHxwIu4Efw7TdCww0ysimDEBdl2wqIRgfy3a7Jf4osjdpQH
+bQ+halgH4vHq8Li3GJTLsqWpSAGAqYTLmGOxDUBHYitFQyo1DFlBFsNApSblKtd1
+LDYREXECxj9sVKDQSQtETuFdmMYWRrlUdrpmTrek5NSk7ilPeXcoKfWZ3k9uVttM
+36M+gSXlBcfac1uP76lexozk5r3Tzub7Rt2eWZJ4Y1VF7vTvb81Y1rm5Iq9j/ooJ
+sPnjWb9v3SdX3wEnvgOH8+y0r9LHXywct3ZI+sSR3YeOPXS1j3Pysy2bjib63Ay0
+V91taryaO/B535b2hkHZs7MjdE3TLG7WvpvVcujs8nTf0ksprzzejrN64Mo1m25P
+OuA75566Pu31A9nxm2/tzPp8WMfFn1fOORdZcKoy0O/VoqIOKz935IiGXce7zZve
+WtJ4e9eDuUceFd27fPfDnOCYlFCaNnxo1tdD3dL4hhX3d217J6d9RPqDETkb1z9X
+u39MT7u5Pb0h5cXmktmHziywz1f96qobOn788uSU3hcOtqgV/bankk/3rqDa1COr
+5ikflOz+46fVU4+uO+1f7b/Wu6il5kQVbG0OXBh9pD2x7s4VujPjeK9bA/35H/1Q
++bZT11RemQ0itLr6XLymfnmG3fdGW+C1os3xKc8+XPnF8FH+AWXlwap446TaYXBv
+fv97o0c+vHFs/6I178FLS6pCS6S0lsY0rWTIwd17vkk0z1heN3bWg9CeF6RTvjMF
+RwfnNewLDit/Oa8+Z9nmuspvOwekX5/cWY92dK9rapuCe1RvO1yzNZjvy4wsHdCT
+TKCdO9qiV+Q3xx8eF/iltH6yb+P9tf0H5w1s6Fv/2/rWQXVbr12e2KP+8dX+FS+d
+DP1JV/myzzt/AQORBLo=
+=guPH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/herogamers
+
+==================================================================
