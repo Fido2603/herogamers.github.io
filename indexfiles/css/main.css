@@ -57,6 +57,13 @@ button:focus {
 	background-color: #222222;
 }
 
+/* Give columns some space when they stack on smaller screens */
+@media (max-width: 767px) {
+	div.row div.col-md-6:first-child {
+		margin-bottom: 20px;
+	}
+}
+
 /* General about sections */
 section {
 	width: 100%;
