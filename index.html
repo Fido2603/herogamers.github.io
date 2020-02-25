@@ -18,6 +18,7 @@
 		enable_page_level_ads: true
 	  });
 	</script>
+
 	<!-- Metadata -->
 	<title>HeroGamers</title>
 	<meta property="og:site_name" content="HeroGamers" />
@@ -60,20 +61,17 @@
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="indexfiles/css/animations.css?v=<?=time();?>">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="indexfiles/css/style.css?v=<?=time();?>">
-	<link rel="stylesheet" href="indexfiles/css/reset.css?v=<?=time();?>">
-	<script src="indexfiles/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js?v=<?=time();?>"></script>
 	<link rel="stylesheet" href="indexfiles/css/main.css?v=<?=time();?>">
 </head>
+
 <body id="top">
 	<!-- Navbar -->
 	<header>
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top othercolor">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+			<!-- Title -->
 			<a class="navbar-brand" href="#">HeroGamers</a>
 
 			<!-- Burger button -->
@@ -97,69 +95,86 @@
 
 	<!-- Page Content -->
 	<main role="main" class="container">
-		<!-- Intro Section -->
-		<div class="row" id="intro">
-			<section class="cd-intro">
-				<div class="cd-intro-content mask">
-					<h1 data-content="HI! I&#8217;M HERO."><span>HI! I&#8217;M HERO.</span></h1>
-					<div class="action-wrapper entry d-flex align-items-center intro-flex">
-						<div class="col-md-6">
-							<p>
-								Hello there traveler! I see you have traveled far and wide to reach this webpage... Let me introduce myself. My name is HeroGamers, but you can call me Hero. I've served as an epic gamer, with a career as a YouTuber, and a career in Graphic Designs for centuries now. On this page, you can find links to my socials, as well as a link to my Discord, where you can chat with me, and maybe grab a cup of coffee!
-								<br>
-								(Coffee must be brewed at own home, and enjoyed in front of a screen. Can be switched out with tea or a glass of water)
-							</p>
-						</div>
-						<div class="col-md-6">
-							<p>
-								<br>
-								I am a:
-							</p>
-							<p style="text-align: left;">
-								&#9642; Content Creator<br>
-								&#9642; Discord HypeSquad Event Attendee<br>
-								&#9642; Discord Bug Hunter<br>
-								&#9642; Discord Custodian<br>
-								&#9642; Former #1 Danish Discord Translator<br>
-								&#9642; Humble Partner<br>
-								&#9642; Playtester for Modus Games<br>
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-		<!-- Discord Section -->
-		<div class="row newsection" id="discord">
-			<div class="col-md-6" style="float:left;">
-				<center>
-					<img src="indexfiles/img/bugcatheartsmack.gif" class="img-fluid align-middle" alt="BugCat Capoo smacking a heart"/></br>
-					<a target="_blank" href="https://discord.gg/PvFPEfd" class="cd-btn main-action">Join my Discord Server, Treeland!</a>
-					<a target="_blank" href="https://discord.gg/eCq7Hy2" class="cd-btn">Join my Discord Emote Server, Heroji!</a>
-				</center>
+		<!-- Title Section -->
+		<section class="row" id="intro">
+			<div class="col-md-12">
+				<h1>Hi, I'm Hero.</h1>
+				<h2>I'm a Danish student who enjoys to fiddle around with nerdy stuff.</h2>
 			</div>
-			<div class="col-md-6" style="float:left;">
-				<center>
+		</section>
+
+		<!-- Intro Section -->
+		<section class="rounded" id="about">
+			<div class="row section-title">
+				<div class="col-md-12">
+					<h3>About me</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>
+						Hello there traveler! I see you have traveled far and wide to reach this webpage... Let me introduce myself. My name is HeroGamers, but you can call me Hero. I've served as an epic gamer, with a career as a YouTuber, and a career in Graphic Designs for centuries now. On this page, you can find links to my socials, as well as a link to my Discord, where you can chat with me, and maybe grab a cup of coffee!
+						<br>
+						(Coffee must be brewed at own home, and enjoyed in front of a screen. Can be switched out with tea or a glass of water)
+					</p>
+				</div>
+				<div class="col-md-6">
+					<p>
+						<br>
+						I am a:
+					</p>
+					<p style="text-align: left;">
+						&#9642; Content Creator<br>
+						&#9642; Discord HypeSquad Event Attendee<br>
+						&#9642; Discord Bug Hunter<br>
+						&#9642; Discord Custodian<br>
+						&#9642; Former #1 Danish Discord Translator<br>
+						&#9642; Humble Partner<br>
+						&#9642; Playtester for Modus Games<br>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Discord Section -->
+		<section class="section rounded" id="discord">
+			<div class="row section-title">
+				<div class="col-md-12">
+					<h3>Welcome to Treeland!</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>
+						My Discord Server is called Treeland, and is your new home away from home!
+					</p>
+					<a target="_blank" href="https://discord.gg/PvFPEfd" class="btn btn-dark" role="button">Join my Discord Server, Treeland!</a>
+					<a target="_blank" href="https://discord.gg/eCq7Hy2" class="btn btn-dark" role="button">Join my Discord Emote Server, Heroji!</a>
+				</div>
+				<div class="col-md-6">
 					<div class="embed-responsive embed-responsive-4by3">
 						<iframe class="embed-responsive-item" src="https://canary.discordapp.com/widget?id=221996778092888065&theme=dark"allowtransparency="true" frameborder="0"></iframe>
 					</div>
-				</center>
+				</div>
 			</div>
-		</div>
+		</section>
+
 		<!-- Humble Bundle Section -->
-		<div class="row newsection align-items-center" id="humble">
-			<div class="col-md-6 d-flex justify-content-center" style="float:left;">
-				<a target="_blank" href="https://www.humblebundle.com/store?partner=hero"><img src="indexfiles/img/PartnerStampWhite.png" class="img-fluid align-middle" style="max-height: 200px;" alt="Humble Bundle Partner Stamp White"/></a>
+		<section class="section rounded" id="humble">
+			<div class="row">
+				<div class="col-md-6">
+					<a target="_blank" href="https://www.humblebundle.com/store?partner=hero"><img src="indexfiles/img/PartnerStampWhite.png" class="img-fluid align-middle" style="max-height: 200px;" alt="Humble Bundle Partner Stamp White"/></a>
+				</div>
+				<div class="col-md-6">
+					<p>
+						When you buy stuff on Humble Bundle, be sure to go through my partnered link first. That way I will get earnings from your purchase at Humble Bundle, if you were to make one.
+						<br><br>
+						Did you know that you, most of the time, will be able to choose what your money goes to, like giving some of the money to charity!
+					</p>
+					<a target="_blank" href="https://www.humblebundle.com/store?partner=hero" class="btn btn-outline-light" type="button">Visit the Humble Bundle Store!</a>
+				</div>
 			</div>
-			<div class="col-md-6 d-flex flex-column justify-content-center" style="text-align: center; float:left;">
-				<p>
-					When you buy stuff on Humble Bundle, be sure to go through my partnered link first. That way I will get earnings from your purchase at Humble Bundle, if you were to make one.
-					<br><br>
-					Did you know that you, most of the time, will be able to choose what your money goes to, like giving some of the money to charity!
-				</p>
-				<a target="_blank" href="https://www.humblebundle.com/store?partner=hero" class="cd-btn main-action">Visit the Humble Bundle Store!</a>
-			</div>
-		</div>
+		</section>
 	</main>
 
 	<!-- Footer -->
@@ -178,12 +193,8 @@
     </footer>
 	
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
-	<!-- Custom JavaScript -->
-	<script src="indexfiles/js/modernizr.js"></script> <!-- Modernizr -->
-	<script src="indexfiles/js/main2.js"></script> <!-- Resource jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

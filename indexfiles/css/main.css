@@ -1,46 +1,29 @@
+/* HeroGamers.xyz Stylesheet */
+/*      Fido2603@GitHub      */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+
+/* Main site stuff */
 html {
+	font-family: 'Raleway';
 	position: relative;
 	min-height: 100%;
 }
+
 body {
 	margin-bottom: 60px; /* Margin bottom by footer height */
 	margin-top: 60px; /* Margin top by navbar height */
-}
-.footer {
-	position: absolute;
-	text-align: center;
-	line-height: 44px;
-	bottom: 0;
-	width: 100%;
-	height: 4em;
-	line-height: 60px;
-	background-color: #23272A;
+	background-color: #222222;
+	color: azure;
 }
 
-.footer div {
-	background-color: #23272A;
-	width: 100%;
+h1 {
+	font-family: 'Raleway';
 }
 
-.navbar {
-	font-family: 'Verdana';
-}
-
-.link-name {
-	margin-left: 5px;
-	margin-right: 15px;
-	font-family: 'Verdana';
-}
-
-/*.link-name:hover {
-	opacity: 0.7;
-	text-decoration: none;
-}*/
-
-.discord-section {
-	width: 100%;
-	margin-bottom: 30px;
-	margin-top: 10px;
+h2, h3 {
+	font-family: 'Lato';
 }
 
 a {
@@ -61,21 +44,62 @@ a:focus {
 	color:#ffffff;
 }
 
-.thiscolor {
-	background-color: #2C2F33;
+/* General about sections */
+section {
+	width: 100%;
+	height: 100%;
+	background-color: #23272A;
+	text-align: center;
+	padding: 10px 10px;
+	margin: 10px -15px;
 }
 
-.othercolor {
+.section-title {
+	margin-bottom: 10px;
+}
+
+/* Footer and navbar */
+.footer {
+	position: absolute;
+	text-align: center;
+	line-height: 44px;
+	bottom: 0;
+	width: 100%;
+	height: 4em;
+	line-height: 60px;
 	background-color: #23272A;
 }
 
-@media(max-width: 768px) {
-  .intro-flex {
-    flex-direction: column;
-  }
+.footer div {
+	background-color: #23272A;
+	width: 100%;
 }
 
-/* Style all font awesome icons */
+.navbar {
+	font-family: "Lato";
+	background-color: #23272A;
+}
+
+.navbar-brand {
+	font-family: "Raleway";
+}
+
+/* Sections */
+#intro div {
+	min-height: 60vh;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	width:100%;
+}
+
+#intro {
+	background-color: transparent;
+}
+
+
+/* Fontawesome */
 .fab {
 	display: inline-block;
     line-height: 50px;
@@ -90,7 +114,6 @@ a:focus {
 	border-radius: 50%;
 }
 
-/* Add a hover effect if you want */
 .fab:hover {
 	opacity: 0.7;
 	text-decoration: none;
@@ -106,8 +129,6 @@ a:focus {
 	margin: 5px 2px;
 	border-radius: 50%;
 }
-
-/* Add a hover effect if you want */
 .fa:hover {
 	opacity: 0.7;
 }
@@ -115,8 +136,6 @@ a:focus {
 .cd-btn:hover {
 	opacity: 0.7;
 }
-
-/* Set a specific color for each brand */
 
 .fa-twitter {
 	background: #55ACEE;
@@ -136,81 +155,4 @@ a:focus {
 .fa-twitch {
 	background: #6441A4;
 	color: white;
-}
-
-@font-face {
-    font-family: 'DC';
-    src: url('../fonts/dolce_vita_light-webfont.eot');
-    src: url('../fonts/dolce_vita_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/dolce_vita_light-webfont.woff') format('woff'),
-         url('../fonts/dolce_vita_light-webfont.ttf') format('truetype'),
-         url('../fonts/dolce_vita_light-webfont.svg#dolce_vita_lightsuper_light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1 {
-    font-weight: 400 !important;
-}
-
-.imgtop {
-    max-width: 550px;
-}
-
-body {background-color: #36393f;}
-
-.entry {
-	margin: 1em auto;
-	/*width: 100%;*/
-	padding: 1em 0.5em;
-	background: #2C2F33;
-	border-radius: 0.5em;
-	color: #fff;
-	font-family: Verdana;
-	/*font-site: 10px;*/
-	opacity: 100;
-}
-
-.entry p {
-	padding: 0.5em 0.25em;
-	opacity: 0.9;
-}
-
-.newsection {
-	margin: 0px -15px 16px -15px;
-	padding: 1em 0.5em;
-	background: #2C2F33;
-	border-radius: 0.5em;
-	color: #fff;
-	font-family: Verdana;
-	opacity: 100;
-}
-
-.newsection p {
-	padding: 0.5em 0.25em;
-	opacity: 0.9;
-}
-
-.responsive {
-	width: 100%;
-	height: auto;
-}
-
-.outer {
-	display: table;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	}
-
-.middle {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.inner {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	/*whatever width you want*/
 }
