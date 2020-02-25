@@ -101,6 +101,12 @@ section>div[class*="row"]>div[class*="col-"] {
 	width: 100%;
 }
 
+@media (max-width: 1040px) {
+	.footer-socialmedia a {
+		font-size: 0px;
+	}
+}
+
 .footer-socialmedia {
 	display: flex;
 	justify-content: space-evenly;
